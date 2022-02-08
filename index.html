@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+    
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: sticky;
+            top: 0;
+            cursor: pointer;
+        }
+    
+        .background {
+            background: black;
+            background-blend-mode: darken;
+            background-size: cover;
+        }
+    
+        .nav-list {
+            width: 70%;
+            display: flex;
+            align-items: center;
+        }
+    
+        .logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .logo img {
+            width: 180px;
+            border-radius: 50px;
+        }
+    
+        .nav-list li {
+            list-style: none;
+            padding: 26px 30px;
+        }
+    
+        .nav-list li a {
+            text-decoration: none;
+            color: white;
+        }
+    
+        .nav-list li a:hover {
+            color: grey;
+        }
+    
+    
+        .firstsection {
+            background-color: rgb(255, 122, 122);
+            height: 400px;
+        }
+    
+        .secondsection {
+            background-color: rgb(255, 53, 245);
+            height: 400px;
+        }
+    
+        .box-main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: black;
+            max-width: 80%;
+            margin: auto;
+            height: 80%;
+        }
+    
+        .firsthalf {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    
+        .secondhalf {
+            width: 30%;
+        }
+    
+        .secondhalf img {
+            width: 70%;
+            border: 4px solid white;
+            border-radius: 150px;
+            display: block;
+            margin: auto;
+        }
+    
+        .text-big {
+            font-family: 'Piazzolla', serif;
+            font-weight: bold;
+            font-size: 35px;
+        }
+    
+        .text-small {
+            font-size: 18px;
+        }
+    
+        .btn {
+            padding: 8px 20px;
+            margin: 7px 0;
+            border: 2px solid white;
+            border-radius: 8px;
+            background: none;
+            color: white;
+            cursor: pointer;
+        }
+    
+        .btn-sm {
+            padding: 6px 10px;
+            vertical-align: middle;
+        }
+    
+        .section {
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            max-width: 90%;
+            margin: auto;
+        }
+    
+        .section-Left {
+            flex-direction: row-reverse;
+        }
+    
+        .paras {
+            padding: 0px 65px;
+        }
+        
+    .third-section{
+        background-color:aquamarine;
+        padding: 20px;
+        margin: auto;
+        justify-content: center;
+    }
+        .thumbnail img {
+            width: 250px;
+            border: 2px solid black;
+            border-radius: 50px;
+            margin-top: 19px;
+            margin-left: 550px;
+        }
+    
+        .center {
+            text-align: center;
+        }
+    
+        .text-footer {
+            text-align: center;
+            padding: 30px 0;
+            font-family: 'Ubuntu', sans-serif;
+            display: flex;
+            justify-content: center;
+            color: rgb(235, 232, 234);
+        }
+    </style>
+    
+</head>
+<body>
+	<nav class="navbar background">
+		<ul class="nav-list">
+			<div class="logo">
+				<img src="C:\Users\PC\projectinfinity\templates\logo.png">
+			</div>
+			<li><a href="/mysite/about">FAQS</a></li>
+			<li><a href="/mysite/function">CHECK PASSWORD STRNGTH</a></li>
+			<li><a href="/mysite/about">ABOUT THE SITE AND MYSELF</a></li>
+            <li><a href="/mysite/research">MY RESEARCH ON THIS </a></li>
+		</ul>
+
+	</nav>
+
+	<section class="firstsection">
+		<div class="box-main">
+			<div class="firstHalf">
+				<h1 class="text-big" id="web">
+					FAQS
+				</h1>
+				
+				<p class="text-small">
+					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, earum fuga quos qui quasi sapiente magnam quis animi exercitationem consequatur, nostrum asperiores voluptates commodi excepturi obcaecati assumenda, aliquam recusandae similique.
+                    Totam blanditiis maxime vitae animi dicta? Quam minus asperiores quas magni quasi! Nobis dolor distinctio reiciendis quam sequi iusto ab vel, totam repellendus vitae obcaecati soluta omnis earum, nesciunt modi.
+                    Labore incidunt nihil animi corrupti repellendus possimus. Animi, nostrum temporibus quaerat ex dolores, fugit, veritatis tempora corrupti ducimus vel molestiae ut. Optio tenetur asperiores iste iure distinctio officiis doloremque ipsam.
+				</p>
+
+
+			</div>
+		</div>
+	</section>
+
+	<section class="secondsection">
+		<div class="box-main">
+			<div class="secondHalf">
+				<h1 class="text-big" id="program">
+					CHECK YOUR PASSWORD STRNGTH
+				</h1>
+				<p class="text-small">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium porro consequuntur dicta recusandae, eius dolorum nemo animi sapiente vitae architecto id iusto, inventore nihil. Ad nihil ab alias eaque tempore.
+                    Qui dignissimos vitae labore sequi deserunt, sed magnam, ipsa unde quidem alias, eius voluptates quia veritatis laboriosam facilis vero molestiae corporis. Nostrum explicabo laboriosam exercitationem quisquam a doloremque cupiditate nisi!
+                    Distinctio, impedit velit consequuntur veritatis ab deleniti eum libero expedita eos accusamus nesciunt omnis ipsa, ducimus repudiandae voluptates vel quam magnam assumenda cupiditate fugit? Veritatis excepturi consectetur ipsa necessitatibus esse?
+                    Eos facere ab veniam dicta esse nisi molestiae sed. Fugit voluptate sequi necessitatibus voluptates aperiam quos sunt eum soluta, et in ut placeat est nesciunt autem deserunt. Eligendi, fuga nulla?
+				</p>
+
+
+			</div>
+		</div>
+	</section>
+
+	<section class="third-section">
+		<div class="paras">
+			<h1 class="sectionTag text-big">ABOUT ME AND MY SITE </h1>
+
+			<p class="sectionSubTag text-small">
+				Lorem ipsum, dolor sit amet consectetur adipisicing Lorem,Lorem ipsum dolor sit 
+                amet consectetur adipisicing elit. Reprehenderit tempora quasi eos recusandae 
+                corrupti quisquam ex quod et vero aliquam, vel fuga itaque sint quam cumque cum illo, a quidem.
+                Eius vel dolores, sunt ratione quod ex dolorem in tempora. Consectetur labore e
+                nim, doloribus consequuntur commodi eius aut itaque fugit? Omnis tenetur fugiat
+                 aliquam minima maxime porro suscipit similique temporibus?
+                Repudiandae, tempore alias? Quam distinctio laborum veniam consectetur temporibus 
+                dolore sed iure sapiente voluptatibus, quis quas consequatur numquam a eaque? Mo
+                lestiae dolorem earum, natus labore soluta sequi esse ratione nisi!
+                Nulla saepe ipsum doloremque illum, rem tenetur sint labore doloribus nam id com
+                smodi dolores, hic delectus dolore officiis nemo enim asperiores facere! Necessitatib
+                us, sunt eveniet illo temporibus et quia pariatur. ipsum dolor sit amet consectetur a
+                dipisicing elit. Hic nisi accusamus eos quod blanditiis officiis voluptas sed, atque, debitis, 
+                ullam iste tenetur cum numquam magnam molestias aut consequatur veniam in.*4elit. Neque quis fu
+                giat provident illo quasi tempore dolor corporis eligendi accusantium possimus dolore maiores deb
+                itis a, vitae dicta sapiente sint laborum enim.*3
+			</p>
+
+
+		</div>
+
+		<div class="thumbnail">
+            <centre><img src="C:\Users\PC\projectinfinity\templates\img.png" alt="laptop image"></centre>
+		
+		</div>
+	</section>
+
+	<footer class="background">
+		<p class="text-footer">
+			Copyright ©-All rights are reserved
+		</p>
+
+
+	</footer>
+</body>
+</html>
